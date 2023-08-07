@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    position: relative;
+}
+.logo{
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background-color:gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    background-color:orange; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    background-color:aquamarine; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .img-handle{
+        max-width: 200px !important;
+      
+        
+    }
+  }
